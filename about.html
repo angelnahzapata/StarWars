@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de - Star Wars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light" style="background-image: url('images/stars.jpg'); background-size: cover; background-position: center;">
+    
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="40" height="40" class="d-inline-block">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">Acerca de</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal con fondo semitransparente -->
+    <div class="container mt-5 p-4 rounded shadow" style="background: rgba(0, 0, 0, 0.7);">
+        <h1 class="text-center">Acerca de Star Wars</h1>
+        <p class="text-center">Star Wars es una saga de películas de ciencia ficción creada por George Lucas. Se desarrolla en una galaxia muy, muy lejana y sigue la lucha entre la Luz y la Oscuridad.</p>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>¿Qué hace especial a Star Wars?</h3>
+                <ul>
+                    <li>Personajes icónicos como Luke Skywalker, Darth Vader y Yoda.</li>
+                    <li>Una historia épica llena de aventuras, batallas y drama.</li>
+                    <li>Una galaxia extensa con planetas, razas y naves impresionantes.</li>
+                    <li>Legiones de fans en todo el mundo y una cultura de culto.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="images/logo.png" alt="Star Wars Logo" class="img-fluid w-75">
+            </div>
+        </div>
+
+        <!-- Sección de Personajes -->
+        <h2 class="text-center mt-5">Personajes Icónicos</h2>
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4">
+                <div class="card bg-dark text-light border-light">
+                    <img src="images/luke.jpg" class="card-img-top" alt="Luke Skywalker">
+                    <div class="card-body">
+                        <h5 class="card-title">Luke Skywalker</h5>
+                        <p class="card-text">El héroe Jedi que lucha contra el Imperio y el Lado Oscuro.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="col-md-4">
+                <div class="card bg-dark text-light border-light">
+                    <img src="images/vader.jpeg" class="card-img-top" alt="Darth Vader">
+                    <div class="card-body">
+                        <h5 class="card-title">Darth Vader</h5>
+                        <p class="card-text">El temible Lord Sith que aterroriza la galaxia.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="col-md-4">
+                <div class="card bg-dark text-light border-light">
+                    <img src="images/yoda.jpg" class="card-img-top" alt="Maestro Yoda">
+                    <div class="card-body">
+                        <h5 class="card-title">Maestro Yoda</h5>
+                        <p class="card-text">El sabio Jedi que entrena a los futuros guardianes de la paz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Frase icónica -->
+        <div class="text-center mt-5">
+            <blockquote class="blockquote">
+                <p class="mb-0">"Que la Fuerza te acompañe".</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
